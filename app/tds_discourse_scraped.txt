@@ -1,0 +1,194 @@
+## GA4 - Data Sourcing - Discussion Thread [TDS May 2025]
+
+Please post any questions related toGraded Assignment 4 - Data Sourcing.Deadline:Sunday, June 22, 2025 11:59 PM@carlton@Jivraj@HritikRoshan_HRM
+
+## Project1 - Virtual TA - Discussion Thread [TDS May 2025]
+
+Please post any questions related toProject 1Please use markdown code formatting (fenced code blocks beginning with ```) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test.Deadline:Today 11:59 PMDeadline:June 18, 2025 11:59 PM
+
+@s.anand@carltonSir i am done with my api endpoint for project 1 but i did one change in the given test file where we have to edit our api endpoint and test it as mentioned in the project description. I was testing my model but was getting the same response every time even though my model was giving the expected answer to those question when tested separately. I found that in the test file (promptfoo.yaml) the cache is marked as true and because of which whenever i try to run the test file it does not hit my api endpoint and take the old response from the cache. So i changed the cache to false and tried running that test file and got the results as shown below in the image.image1861×912 105 KBIn this as you can see for the 2nd test case since i am using the openai model to give the final answer so it is using my context and saying that dashboard will show 11/10, but the expected answer should contain “110”. The problem i am facing is as you can see the url given in my response is same as expected which means my model is picking the right context to answer the question but since i am using openai to make my final answer using this context it is very unlikely that it will say that dashboard will show “110” because this doesn’t make sense. So can you please help me how should i tackle this ? As this is the only test case left.And also i have added one prompt field in the test file because i was getting warning regarding this missing field again and again. So is it okay ?
+
+@HritikRoshan_HRMsir can you please help me with this.
+
+Not able to access the tds project link.TDS_Project1898×509 16.7 KB
+
+tds.s-anand.netTools in Data Science
+
+Not this one the GitHub repository URL and API endpoint URL submission link not opening.Sir my all links are working like I submitted by GA1 also but only my project submission link not working. Please solve the problem. How will I submit my project?
+
+Have you completed your project ? I have some doubts.
+
+not yet but how will I gonna submit it. I can’t post this at end. My link should be working to submit my project before deadline.
+
+Submission date is next month, maybe by then they will fix it. I am also not able access submission link.
+
+Sir, the question’s background specifies that we should use Discourse posts fromJanuary 1, 2025 through April 14, 2025. However, infirst testcasewe are asked to answer based on the following Discourse post—which dates outside that window:https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939Is this an error in the question’s timeframe?
+
+Interesting, that’s my post from Sep 24 Term. I am curious about the context and why did an 8 month old post come up in a Test.
+
+I guess, this question is also covered in previous term, i.e., t1-2025
+
+Actually, in this term (May 25), we received our first project asTDS Virtual TA, where we are tasked with designing a chatbot API that acts as a virtual TA. For this project, your post has been provided as an example test case.
+
+Sorry, but I couldn’t find any related question. Could you please send me the link to the post, if you have it?
+
+It maybe in week-4 or 5 GA
+
+@Jivraj@carltonSir, any updates on my issue?
+
+Sir, i have build an initial model for my project and when i test some question separately then i get somewhat expected answer likeimage1136×435 11.3 KBthis is the response which i got from my model@carltonsir can you please help me in this
+
+And the in the test file given in the project description this is the response for this questionimage965×296 9.81 KB
+
+This is the response of the same question given in the promtfoo.yaml file which we have to use for the testing purpose by editing our api endpoint.But the issue is, when i test this file by running that promtfoo.yaml file by editing my api endpoin then for this same question the test case fails.image1179×191 12.9 KBalso the answer which it shows is not what i get when i run my model for this question as shown in the above image. Can you please help me with this, where i am going wrong ?
+
+## TDS | References | Guidelines
+
+Course PortalPublic Course Portal LinkInstructorsPrasanna -@iamprasnaCarlton -@carltonTags UsagePractice Question -Week-numPractice-questionGraded Question -Week-numGraded-questionOperational -operationalExam -quizProject -project-numTerm -termNum-YYYYCalendarCourse/subject calendarImportant LinksGrading DocumentAnnouncement GroupOfficial YouTube channelPurpose of ROECourse FeedbackHere’s students’ feedback:Itusedto be an easy course until 2024.###Now it’s hard and covers more. Take it in your last semester if possible.###Plan extra time. It takes more time than typical 3-credit courses.###LLMs grade you – unpredictably.##The ROE is hard.#
+
+## About the Tools in Data Science category
+
+This category is created to addresssubject-specific queriesrelated toTools in Data Science- Why should people use this category? What is it for?The larger goal of the Discourse forum is to act as a Knowledge base for the course. You can make this more productive byElaborating your question sufficiently and supporting it with steps that you have already tried at your end before posting this questionSharing additional content or explanations related to the topic being discussed-  Are there any rules for posting in this category?Before you create a new post,review the existing threadsto see if there are already highly similar or identical postings. Discourse will suggest similar posts once you start typing titlesTag the post appropriatelyso that it gets indexed correctly in our Knowledge Base. For instance, if your query is on an Activity Question in Week 1 then use the tags#activity-question,#week-1Provide a meaningful title to your postthat contains the topic/details of your query so that it can be searched by others easily. For instance: Do not use the titles like“AQ1.1 Q3”which just gives question number alone.  Instead use a more meaningful title like -“Need help in calculating theNthN^{th}Nthprime number”Type in your question and explanationsrather than pasting images or screenshots.- What is NOT Permitted in this category?Being argumentative or sarcasticUse of abusive/strong languagePosting support/logistics related queryUnnecessarily tagging Faculty/Instructors in postsPosting Solutions or discussing solutions to graded assignments- Who will be moderating the content in this forum?The foum will be moderated by Course Instructors. They will have the authority to decide whether a post violates forum rules/guidelines. You can flag/report any such violations that you observe by clicking onicon on the post. Please do mention the reason why you are flagging the topic.- What are the disciplinary actions if some one violates the rules and guidelines of the forum?The flagged posts that violates forum rules/guidelines will be hidden. Repeated violation of the rules can result in the offender being removal from the forum.
+
+Can some course instructor talk more about the Discover the problem statement ?
+
+From the graded assignment we can’t understand what is right way to think unless we make trial and error. can we have some practice assignment to understand our thinking process is properly aligned or not. With just GA it would be difficult to assess.
+
+Apart from what@CKPIITMobserved about this course, here’s my first impression of this course…Granted, it has been only a week, but I think I must go ahead anyway…The week-1 clearly shows a lack of planning, from the program as well as the specific course perspective.  It starts off with an example that completely caught me off-guard.  The first video discussed an example that left me wondering why is the instructor even discussing all of that, at this point.  What’s the context and the motivation?  Moreover, every slide is filled to the brim with text.  Can’t decide whether to read it or listen to the speaker.  Neither does give me much understanding anyway.  It was filled with terminology that I’m yet to pick up.  The speaker didn’t apparently know much about who the audience is, and what are they aware of, and what they aren’t…In short, it failed to implement any of the very matter it speaks of - Understanding the problem.Summary.  I feel the course is offered too early.  Rather, I took it a little too early.Definitely, I can’t relate to most things the speaker is talking about.  At least, I don’t see how and where the ideas will gel with our program.  I’m sure it does, but now, I don’t know how.Sorry, I’d never been as critical about anything as this one.  I just had to.  I’m willing to hear different opinions.I’m awaiting the announcement from IIT for the course drop.
+
+I am totally clue less about the expectation of instructor from the participants of this course. And the question of graded assignment was something, I found myself out of context. I know I can pass any course but I don’t just wanna pass without any concrete learning. The real problem this time is not TIME.Hopefully courses instructor will guide us through this conundrum.
+
+I feel like we need an introduction video of some kind for this. Or it should have been suggested only to those who have completed all the ML courses. From the offset, there are people who don’t know what modelling is, the different kinds of models etc. but there is no explanation for all this. Granted, it was mentioned in the orientation that it would only be tools with no explanation.But I am hopeful that this will get better in the later weeks as this is the only “comprehension” type of week (reminiscent of the english courses lol). The other weeks will all involve practical approach and coding. As long as adequate time is spent on introducing each new thing, I think it should be okay.
+
+As of now, I’m set on my mind to drop the course, unless something hopeful turns up next week.  Will continue after all other ML courses are done…
+
+Some sort of introduction would have been better instead of just diving into the topic. Nevertheless, I hope we get practice questions/assignment to comprehend the concepts.In the meantime if anyone gets some sort of resources to practice elsewhere, do share.
+
+Adding to the discussion here, I’d also have to say it’s quite the same feeling for me. I got lost while going through the videos. At first, I thought it’s some issue with me, because of which, the video is making less meaning. Seems like, many have the same issues. As told by many here, I would also emphasize the need for more practice questions.
+
+Participants of this course should express their experience so that a more meaningful content can be created and provided to us as supplementary. From lec video it is clear that the recording were made around july so they had around half an year time to work on it.The other problem is, there is no visible resource to get our hands on experience.
+
+I also feel the same. but I think with further weeks the course will become more interesting.
+
+As my peers said i also feels the same way but i don’t have thought of dropping course rather i wanted some more content to add from IITM side to make the students more comfortable in this journey.
+
+well, my choice of dropping might be wrong…but, guided by the following factors.The recording was perhaps done much earlier as@CKPIITMpointed out in his reply, and so chances are most of it would’ve been already recorded.  So, lesser chances to re-record them.There are no live sessions planned yet for this course… the absence of enough sessions (especially given that it’s a 2-credit course) will worsen the situation.Finally, I feel I might be able to better appreciate the technicalities and jargon if I finish all other ML courses before taking this up.
+
+Imagine if your reason doesn’t get resolved even after all ML courses are over then in that case you will underutilize your time. So I would suggest don’t think of dropping, it is just a course and we just need to pass it and leverage this knowledge to search for better resources and learning material.@Anand
+
+CKPIITM:I know I can pass any course but I don’t just wanna pass without any concrete learning.wasn’t it you who wrote this earlier
+
+But this will not lead me to dropping either. I always find ways to learn.I start with expectation and then start my own search for knowledge.
+
+I certainly differ from the point of view of the conversation going on in this thread.In my opinion, I am thinking this first week of content as to understand how the problems or objective come from a company which needs these models to implemented. It is more of a professional view rather than a student view. We need to first understand the problem and then start the solution rather than just jumping on to modelling each question.
+
+I also found 1st week content engaging and practical. Maybe I will get few questions wrong,but I feel the concept of discovering the problem was well introduced.
+
+I too find content of week 1 engaging and practical. I agree with@anand095and@akruti.
+
+Interesting!  Just this morning, during my morning walk I was thinking how each of us is different in our outlook, our potential, how we realize it, how we’re challenged…and the recent posts show that we indeed are different!  It’s important that none of us stay put on what works for us and what we think is right, but be willing to see the other point of view too…I think I’m starting to understand the other points of view…well I’m trying to
+
+## CORS settings for the deployed project
+
+I have allowedhttps://exam.sanand.workers.devin CORS of TDS project 1. Is this enough or should I give access to every site i.e [“*”] ?
+
+@carltonsir, please clarify
+
+## A humble request to the TDS Course Team
+
+@carltonand@JivrajRespected SirIt was my first time doing web scraping and other tasks required for this project. After watching the live sessions, I realized that my approach was wrong. The live sessions are really goodbut, they are being conducted too close to the deadline (started on 10th June). In the sessions, it was said that this project could be completed in a day, but I don’t feel that this is the case for me (not even close), though that might just be my own inefficiency.Aside from that, the method of using the Gemini model demonstrated in the sessions only allowed me to generate embeddings for the first 100 chunks (max per day), there are way more than that in my workflow. I have to spend time finding other alternatives to create embeddings before I make the final submission with the openAI api. So, I humbly request, if it is possible, please consider extending the deadline by a few days. There is not enough time to absorb what was taught in the live sessions and implement it as complete beginner.Thank you.
+
+23f1000917:Aside from that, the method of using the Gemini model demonstrated in the sessions only allowed me to generate embeddings for the first 100 chunks (max per day), there are way more than that in my workflow. I have to spend time finding other alternatives to create embeddings before I make the final submission with the openAI api. So, I humbly request, if it is possible, please consider extending the deadline by a few days. There is not enough time to absorb what was taught in the live sessions and implement it as complete beginner.it will be helpful if deadline extended by 2-3 days
+
+Yes sir please extend the deadline
+
+please extend the deadline
+
+please extend the deadline
+
+(post deleted by author)
+
+Already extended till 18th.On another topicPlease post any questions related toProject 1Please use markdown code formatting (fenced code blocks beginning with ```) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test.Deadline:Today 11:59 PMDeadline:June 18, 2025 11:59 PM
+
+## Project 1 submission deadline
+
+@carltonSir could you please extend the deadline for the submission of the project-1 by one more day.
+
+Sir, Please check possibility of few days extension as some of the tasks requires throttling and unable to get it done on time.
+
+## Npx -y promptfoo eval –config project-tds-virtual-ta-promptfoo.yaml error
+
+npx -y promptfoo eval --config project-tds-virtual-ta-promptfoo.yamli am getting the following error 
+ expected output to contain "https://discourse.online...
+could you pls tell what changes should i make to my api code. thanks
+
+
+from fastapi import FastAPI
+from pydantic import BaseModel
+from typing import Optional, List
+import json
+from fastapi.responses import JSONResponse
+
+# Load data from JSON file
+with open("discourse_posts.json", "r") as f:
+    discourse_posts = json.load(f)
+
+app = FastAPI()
+
+# Define request/response models
+class QuestionRequest(BaseModel):
+    question: str
+    image: Optional[str] = None
+
+class Link(BaseModel):
+    url: str
+    text: str
+
+class AnswerResponse(BaseModel):
+    answer: str
+    links: List[Link]
+    url: str
+    topic_title: str
+
+@app.post("/api", response_model=AnswerResponse)
+async def get_answer(request: QuestionRequest):
+    print("Received question:", request.question)
+    question = request.question
+    for post in discourse_posts:
+        if any(word.lower() in question.lower() for word in post["question_keywords"]):
+            return AnswerResponse(
+                answer=post["answer"],
+                links=[Link(**link) for link in post["links"]],
+                url=post["url"],
+                topic_title=post["topic_title"]
+            )
+
+    # Default fallback response with required fields
+    return AnswerResponse(
+        answer="Sorry, I couldn't find an answer to your question.",
+        links=[],
+        url="https://tds.s-anand.net/#/",
+        topic_title="Unknown topic"
+    )
+
+@app.get("/")
+async def read_root():
+    return {"message": "TDS API server is running."}
+
+@app.get("/favicon.ico")
+async def favicon():
+    return {}
+
+
+pls help @jivraj @hrithik
+
+@Jivraj@HritikRoshan_HRM
+
+## Github account made using the IITM email id keeps getting blocked
+
+Hello everyone,I have earlier submitted the project1 successfully and saved it to. Today i just wanted to verify if my submissions were still working as the project said (The URL should be accessible when the project team evaluates your submission.)The API endpoint which i depolyed on Render is still working just fine(takes a little while when tested after a while for the application to start)but the github repo which i used to deploy the project is not accesibibleThis is second time my github account got blocked.And i am also unable to unblock it today as i have already surpassed the sms otp limit for the day (it was going to spam)Please let me know if i will be scored fairly
+
+## Help required in Project 1 - scrapping Discourse data
+
+Hello,I’m new to coding and still learning. I’m trying to scrape data from a Discourse forum and have identified the relevant API endpoint. However, I’m having trouble with authentication—I keep receiving a 403 error stating that the user is not logged in or doesn’t have permission to perform the action.I’ve tried using the most recent cookies from my browser, but I still get the same error. Can someone help me figure out what I’m doing wrong?
+
